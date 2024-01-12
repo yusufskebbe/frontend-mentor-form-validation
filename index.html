@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Roboto:wght@400;700&family=Rubik:wght@400;700&display=swap"
+    rel="stylesheet">
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body class="bg-white md:bg-charcoalGrey ">
+
+  <main class=" flex   h-screen  md:items-center md:justify-center">
+
+    <div id="card"
+      class="card  flex flex-col w-full md:flex-row-reverse  md:items-center md:justify-center md:p-6   md:bg-white md:w-3/4 md:auto	md:rounded-lg ">
+      <img src="./assets/images/illustration-sign-up-mobile.svg" alt="image" class="hero-img rounded-b-2xl md:hidden ">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="image"
+        class="hero-img hidden rounded-b-2xl md:block md:w-[430px] ">
+
+      <div class="card-content flex flex-col space-y-4 p-6 mt-4   md:w-1/2 md:space-y-2">
+        <h1 class="text-4xl font-bold font-Rubik ">Stay updated!</h1>
+
+        <p class="text-2xl "> Join 60,000+ product managers receiving monthly updates on:</p>
+        <div class="features flex flex-col justify-center space-y-4">
+          <div class="item flex  space-x-2 ">
+            <img src="./assets/images/icon-list.svg" alt="">
+            <p class="text-xl "> Product discovery and building what matters</p>
+          </div>
+          <div class="item flex space-x-2">
+            <img src="./assets/images/icon-list.svg" alt="">
+            <p class="text-xl "> Measuring to ensure updates are a success</p>
+          </div>
+          <div class="item flex space-x-2">
+            <img src="./assets/images/icon-list.svg" alt="">
+            <p class="text-xl "> And much more!</p>
+          </div>
+
+
+
+        </div>
+        <div class="label-input  flex flex-col space-y-4">
+          <label for="email" class="block font-bold text-sm">Email Address</label>
+          <span id="errMessage" class="hidden text-red-500  block text-right ">Valid Email Required</span>
+          <input type="email" id="email" name="email" placeholder=" email@company.com"
+            class="p-4 border-2  outline-0 w-full rounded-lg ">
+          <a href="" id="btn" class="p-4 text-center bg-charcoalGrey text-xl text-white rounded-lg">
+            Subscribe
+            to
+            monthly
+            newsletter
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+
+</body>
+
+</html>
+
+<!-- Sign-up form end -->
+
+<!-- Success message start -->
+
+
+
+
+
+<!-- Success message end -->
+<!--
+ <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+
+
+    // OTHER page
+    
+
+    A confirmation email has been sent to ash@loremcompany.com.
+    Please open it and click the button inside to confirm your subscription.
+
+    Dismiss message
+
+  </div>
+
+-->
